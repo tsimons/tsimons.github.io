@@ -1,0 +1,14 @@
+@import "mixins";
+
+.site__header {
+	padding: 1em 0 2.5em;
+
+	background:  url(../images/mpls-skyline.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+a.site__title {
+	font-size: em(24);
+	color: #fff;
+	font-weight: normal;
+}

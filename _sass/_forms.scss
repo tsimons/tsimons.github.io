@@ -1,0 +1,41 @@
+.search {
+	position: relative;
+	margin-top: .5em;
+
+	@media (max-width: $md) {
+		margin-top: 2.5em;
+	}
+}
+
+.search__input {
+	display: inline-block;
+	width: 100%;
+	padding: .25em 1em .15em 1em;
+
+	border-radius: 1.5em;
+	border: none;
+	outline: none;
+
+	background: rgba(255, 255, 255, .65);
+	transition: background .25s;
+
+	&:focus {
+		background: #fff;
+	}
+}
+
+.search__button {
+	position: absolute;
+	top: 50%;
+	right: 1em;
+	margin-top: -.65em;
+
+	border: none;
+	outline: none;
+	
+	background: none;
+	
+	line-height: .8;
+	color: $orange;
+	font-size: 1.25em;
+}

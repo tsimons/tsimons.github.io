@@ -1,0 +1,16 @@
+.nav {
+	padding: 1em;
+	background: $tan;
+	margin: 2em 1em 0;
+
+	@media (max-width: $md) {
+		background: none;
+		text-align: center;
+	}
+}
+
+a.nav__link {
+	display: block;
+
+	color: $text-color;
+}
