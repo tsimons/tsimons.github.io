@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Eastside';
+  src:  url('./fonts/EastsideRegular.woff2') format('woff2'),
+        url('./fonts/EastsideRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fairview';
+  src:  url('./fonts/Fairview_Regular.woff2') format('woff2'),
+        url('./fonts/Fairview_Regular.woff') format('woff');
+}
